@@ -4,10 +4,17 @@
 const nuevaString = 'hola';
 
 // Crea una variable numérica, puede ser cualquier número:
+<<<<<<< HEAD
 const nuevoNum = 3;
 
 // Crea una variable booleana:
 const nuevoBool = false;
+=======
+const nuevoNum = 4;
+
+// Crea una variable booleana:
+const nuevoBool = true;
+>>>>>>> a1024f81279ffde2df737ae8ae425fd0e9ea62be
 
 // Resuelve el siguiente problema matemático:
 const nuevaResta = 10 - 5 === 5;
@@ -27,8 +34,12 @@ const nuevoModulo = 21 % 5 === 1;
 
 function devolverString(str) {
   // "Return" la string provista: str
+<<<<<<< HEAD
   // Tu código:
 
+=======
+  // Tu código: 
+>>>>>>> a1024f81279ffde2df737ae8ae425fd0e9ea62be
   return str;
   
 }
@@ -37,7 +48,10 @@ function suma(x, y) {
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código:
+<<<<<<< HEAD
 
+=======
+>>>>>>> a1024f81279ffde2df737ae8ae425fd0e9ea62be
   return x + y;
   
 }
@@ -45,23 +59,34 @@ function suma(x, y) {
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
+<<<<<<< HEAD
 
   return x - y ;
+=======
+  return x - y;
+>>>>>>> a1024f81279ffde2df737ae8ae425fd0e9ea62be
   
 }
 
 function multiplica(x, y) {
   // Multiplica "x" por "y" y devuelve el valor
   // Tu código:
+<<<<<<< HEAD
 
   return x * y;
+=======
+  return x * y ;
+>>>>>>> a1024f81279ffde2df737ae8ae425fd0e9ea62be
   
 }
 
 function divide(x, y) {
   // Divide "x" entre "y" y devuelve el valor
   // Tu código:
+<<<<<<< HEAD
 
+=======
+>>>>>>> a1024f81279ffde2df737ae8ae425fd0e9ea62be
   return x / y;
   
 }
@@ -70,12 +95,20 @@ function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
   // Tu código:
+<<<<<<< HEAD
   if (x == y){
     return true;
   }
 
   return false;
 
+=======
+  if (x === y){
+    return true
+  }else{
+    return false
+  }
+>>>>>>> a1024f81279ffde2df737ae8ae425fd0e9ea62be
   
 }
 
